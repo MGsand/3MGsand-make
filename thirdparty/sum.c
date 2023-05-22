@@ -3,13 +3,7 @@
 #define pi 3.14159265358979323846
 CTEST(circle_test, circle)
 {
-    // Given
-    //const int a = 1;
-    //const int b = 2;
-
-    // When
-    //const int result = sum(a, b);
-    double a, b, r=4;
+        double a, b, r=4;
     
     circle( r, &a, &b);
 
